@@ -1,0 +1,25 @@
+algo ex15
+Algorithme moyenne mention
+VariablesN1, N2, N3, M: réel
+mention: chaine de caractères
+Début
+Ecrire ("svp done les notes: ")
+Lire ( N1, N2, N3 )
+M <-- (N1 + N2 + N3 )/ 3
+Si M < 10 alors
+mention <-- "Insuffisant"
+Sinon
+Si M >= 10 et M < 12 alors
+ mention <-- "Passable"
+Sinon
+Si M >= 12 et M < 14 alors
+mention <-- "Assez Bien"
+Sinon
+Si M >= 14 et M < 16 alors mention <-- "Bien"
+Sinon
+mention <-- "Très Bien"
+fin Si
+fin Si
+fin Si
+fin Si
+fin
